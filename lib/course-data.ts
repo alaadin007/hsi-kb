@@ -15,7 +15,8 @@ export const courseData = {
       duration: "1 Day",
       price: "£1,495",
       level: "Beginner",
-      image: "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&q=80",
+       slug: "botox-training-for-medical-professionals"
     },
     {
       title: "Advanced Botox And Fillers",
