@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Menu, X, Phone, Mail } from 'lucide-react'
 import { Logo } from '@/components/logo'
+import { SearchBar } from '@/components/search-bar'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
@@ -63,6 +64,11 @@ export function Header() {
           <div className="flex items-center justify-between py-4">
             <Logo />
 
+            {/* Search Bar */}
+            <div className="hidden lg:block flex-1 max-w-xl mx-8">
+              <SearchBar />
+            </div>
+
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">
               {navigation.map((item) => (
@@ -106,6 +112,9 @@ export function Header() {
           )}
         >
           <div className="container mx-auto px-4 py-4 space-y-4">
+            <div className="mb-4">
+              <SearchBar />
+            </div>
             {navigation.map((item) => (
               <Link
                 key={item.name}
