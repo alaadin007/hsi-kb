@@ -65,9 +65,9 @@ export function Header() {
             <Logo />
 
             {/* Search Bar */}
-            <div className="hidden lg:block flex-1 max-w-xl mx-8">
+            {/*<div className="hidden lg:block flex-1 max-w-xl mx-8">
               <SearchBar />
-            </div>
+            </div>*/}
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center gap-8">

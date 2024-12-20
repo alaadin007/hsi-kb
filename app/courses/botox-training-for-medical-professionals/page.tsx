@@ -1,13 +1,13 @@
 "use client"
-
 import { Header } from '@/components/header'
-import { CourseBanner } from '@/components/course-banner'
+import { CourseBanner } from '@/components/course-banner-botox-training-medical-prof'
 import { CourseContent } from '@/components/course-content'
+import { CourseSearch } from '@/components/course-search'
 import { CourseFAQ } from '@/components/course-faq'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card } from '@/components/ui/card'
 import { Check } from 'lucide-react'
-
+import { Button } from '@/components/ui/button'
 const preRequisiteCourses = [
   {
     title: "Facial Ageing & Aesthetic Treatments",
@@ -26,8 +26,6 @@ const preRequisiteCourses = [
     description: "Learn the theory behind botulinum toxin (aka Botox) as used in medicine for aesthetic as well as medical conditions."
   }
 ]
-
-
 export default function FoundationCoursePage() {
   return (
     <>
@@ -43,39 +41,34 @@ export default function FoundationCoursePage() {
                 <TabsTrigger value="requirements">Requirements</TabsTrigger>
                 <TabsTrigger value="certification">Certification</TabsTrigger>
               </TabsList>
-
               <TabsContent value="overview">
                 <Card className="p-6">
                   <div className="space-y-6">
                     <div>
-                      <h3 className="text-xl font-semibold text-silver-200 mb-4">Beginners Level</h3>
-                      <h4 className="text-lg font-semibold text-silver-300 mb-3">Course Suitable For:</h4>
-                      <ul className="space-y-2 text-gray-300">
-                        {['Doctors', 'Dentists', 'Dental Hygienist', 'Nurses', 'Pharmacists', 'Orthoptists and Midwives'].map((profession) => (
-                          <li key={profession} className="flex items-center gap-2">
-                            <Check className="h-5 w-5 text-silver-400" />
-                            {profession}
-                          </li>
-                        ))}
-                      </ul>
+                    <h3 className="text-2xl font-semibold text-silver-200 mb-6">Harley Street Botox Course</h3>
+                      <h4 className="text-lg font-semibold text-silver-300 mb-3">Intense Aesthetic Courses</h4>
                       <p className="text-gray-300 mt-4">
-                        Our aesthetic courses are designed to be enjoyable and easy for beginner practitioners, providing safe and effective techniques that can be immediately implemented after training.
+                        <p className="mb-2">Almost all Foundation Day Courses are aimed at doctors, dentists, nurses, pharmacists, and other healthcare professionals looking to start their career in Aesthetic Medicine. However, we’ve designed a Botox-only course specifically for those who want to focus on Botox without learning treatments that may not be relevant to their practice at this stage, such as dermal fillers.</p>
+                        <p className="mb-2">Introducing our Botox-Only Course—ideal for dentists looking to expand their services with treatments for conditions like bruxism or migraines, or for any healthcare professional who wishes to specialize in Botox treatments alone.</p>
+                        <p className="mb-2">As with all our courses, we adopt a hybrid approach, allowing for self-paced learning through a combination of e-learning modules and a one-day practical session. The e-learning modules are filled with pre-recorded video demonstrations, detailed graphic images, and diagrams to support your learning.</p>
+                        On the practical day, participants will apply their theoretical knowledge in hands-on training with live models, ensuring they gain real-world experience and confidence in Botox administration.
                       </p>
                     </div>
 
                     <div>
-                      <h3 className="text-xl font-semibold text-silver-200 mb-4">Aesthetic Courses by Mentorship</h3>
+                      <h3 className="text-xl font-semibold text-silver-200 mb-4">Botox Course by Mentorship</h3>
                       <p className="text-gray-300 mb-4">
-                        These mentors are committed to shaping a safer and quality future for Aesthetic Medicine.
+                        Harley Street Institute is powered by a team of experienced and skilled industry experts who are passionate about what they do.
+                        These mentors are committed to shaping a safer and quality future of Aesthetic Medicine.
                       </p>
-                      <h4 className="text-lg font-semibold text-silver-300 mb-3">Foundation Botox and Fillers Course offers:</h4>
+                      <h4 className="text-lg font-semibold text-silver-300 mb-3">Foundation Botox and Fillers Course offer you:</h4>
                       <ul className="space-y-2 text-gray-300">
                         {[
-                          'Small-sized (4:1) trainee-to-trainer ratio',
-                          'Extensive hands-on experience with real clients',
-                          'Accredited course developed in line with HEE, JCCP, and CQC standards',
-                          'CPD-certified cosmetic courses',
-                          'Networking & after-course support'
+                          'Small sized (4:1) trainee to trainer ratio',
+                          'Bespoke courses and training',
+                          'Accredited course developed in line with HEE, JCCP and CQC standards',
+                          'CPD certified courses for a wide range of medical and healthcare professionals',
+                          'A platform to build and expand professional networks within aesthetics'
                         ].map((feature) => (
                           <li key={feature} className="flex items-center gap-2">
                             <Check className="h-5 w-5 text-silver-400" />
@@ -84,34 +77,36 @@ export default function FoundationCoursePage() {
                         ))}
                       </ul>
                       <p className="text-gray-300 mt-4">
-                        Our unique approach to aesthetic training has over 95% of the practitioners starting the practice immediately afterwards.
+                        Our unique approach to aesthetic training has enabled and empowered the delegates to launch their independent practice right away; over 90% start the practice immediately afterwards
                       </p>
                     </div>
                   </div>
                 </Card>
               </TabsContent>
-
               <TabsContent value="curriculum">
                 <Card className="p-6">
-                  <h3 className="text-2xl font-semibold text-silver-200 mb-6">FOUNDATION DERMAL FILLERS AND BOTOX COURSE</h3>
-
+                  <h3 className="text-2xl font-semibold text-silver-200 mb-6">Botox Only Course for Medical Professionals (12 CPD) </h3>
                   <div className="space-y-8">
+                    <div className="flex items-center gap-4">
+                      <div className="bg-silver-900/50 px-4 py-2 rounded-lg">
+                        <h4 className="text-xl font-semibold text-silver-200">Part 1.</h4>
+                      </div>
+                      <h5 className="text-lg font-semibold text-silver-300">Online Modules</h5>
+                    </div>
                     <div>
-                      <h4 className="text-xl font-semibold text-silver-200 mb-4">Practical Session Learning outcomes</h4>
-
+                      <h5 className="text-lg font-semibold text-silver-200 mb-3">Pre-requisite Botox Course Online Modules (7+ CPD)</h5>
+                      <h6 className="text-base font-semibold text-silver-300 mb-2">Understand aesthetic terminology, ageing process & anatomy as well as pharmacodynamics of drugs used in practice.</h6>
                       <div className="space-y-6">
                         <div>
-                          <h5 className="text-lg font-semibold text-silver-200 mb-3">Botox Injection Techniques</h5>
-                          <h6 className="text-base font-semibold text-silver-300 mb-2">Facial Anatomy & Botox Injection Techniques:</h6>
                           <ul className="space-y-2 text-gray-300">
                             {[
-                              'Glabella',
-                              'Forehead',
-                              'Crows Feet',
-                              'Eye Brow Lift',
-                              'Bunny Lines ＊',
-                              'Gummy Smile ＊',
-                              'Lip Flip ＊'
+                              'Facial Ageing Overview',
+                              'Facial Assessment & Consultation',
+                              'Botulinum Toxin Fundamentals',
+                              'Botulinum Toxin Reconstitution',
+                              'Upper Face Botulinum Toxin Injections',
+                              'Foundation Day Trainers Guidelines',
+                              'Upper Face Botulinum Toxin Injections'
                             ].map((technique) => (
                               <li key={technique} className="flex items-center gap-2">
                                 <Check className="h-5 w-5 text-silver-400" />
@@ -120,51 +115,66 @@ export default function FoundationCoursePage() {
                             ))}
                           </ul>
                         </div>
-
-                        <div>
-                          <h5 className="text-lg font-semibold text-silver-200 mb-3">Dermal Filler Injection Techniques</h5>
-                          <h6 className="text-base font-semibold text-silver-300 mb-2">Skin Anatomy & Dermal Filler Injection Techniques:</h6>
+                        <div className="flex items-center gap-4">
+                          <div className="bg-silver-900/50 px-4 py-2 rounded-lg">
+                            <h4 className="text-xl font-semibold text-silver-200">Part 2.</h4>
+                          </div>
+                          <h5 className="text-lg font-semibold text-silver-300">Practical Day</h5>
+                        </div>
+                        <h6 className="text-base font-semibold text-silver-300 mb-2">What you will Learn on this Botox Only Course:</h6>
+                        <div className="grid md:grid-cols-2 gap-8">
+                          <div className="space-y-4">
+                            <ul className="space-y-2 text-gray-300">
+                              {[
+                                'How to mix botox',
+                                'The Aesthetic Consultation',
+                                'Aesthetic Photography',
+                                'What is the treatment protocol and plan for people having Botox?',
+                                'How to asses suitability of the masseter muscle for botox',
+                                'Learn to categorise according to masseter size',
+                                'How to Administer Botox for Areas Taught',
+                                'Gummy smiles',
+                                'Droopy Lips',
+                                'Crumpled Chin'
+                              ].map((technique) => (
+                                <li key={technique} className="flex items-center gap-2">
+                                  <Check className="h-5 w-5 text-silver-400" />
+                                  {technique}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
                           <ul className="space-y-2 text-gray-300">
                             {[
-                              'Mid-Deep Dermal Injection Skill Using Ultrafine Needle',
-                              'Lip Filler Training – hydration, volume increase & contouring',
-                              'Naso-labial folds – reduce lines running from base of the nose to corners of the mouth',
-                              'Facial Lines & Wrinkles',
-                              'Deep crows feet repair ＊',
-                              'Downturned lip corners ＊'
+                              'Bruxism',
+                              'Migraines',
+                              'Frown lines',
+                              'Crows feet',
+                              'Forehead lines',
+                              'Bunny lines',
+                              'What are the correct doses per area per gender',
+                              'How to administer – and receive 1:1 Feedback',
+                              'Common and rare complications – and How to Avoid',
+                              'Marketing Strategy and how to attract clients'
                             ].map((technique) => (
                               <li key={technique} className="flex items-center gap-2">
                                 <Check className="h-5 w-5 text-silver-400" />
                                 {technique}
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-
-                        <div>
-                          <h5 className="text-lg font-semibold text-silver-200 mb-3">Business Advice & Consultancy:</h5>
-                          <ul className="space-y-2 text-gray-300">
-                            {[
-                              'Setting Up Clinics',
-                              'Pricing Strategy & Marketing Guidelines',
-                              'Medical Malpractice & Insurance',
-                              'Consent Forms & Record Keeping'
-                            ].map((topic) => (
-                              <li key={topic} className="flex items-center gap-2">
-                                <Check className="h-5 w-5 text-silver-400" />
-                                {topic}
                               </li>
                             ))}
                           </ul>
                         </div>
                       </div>
-
-                      <p className="text-gray-400 mt-6">＊ as models permit we do hand on training on as many areas</p>
+                      <div className="flex flex-col sm:flex-row gap-4 mt-8">
+                        <a href='https://med.as.me/botox-only-course' target='blank'>
+                          <Button size="lg" className="bg-silver-600 hover:bg-silver-700 text-white w-full sm:w-auto">
+                            Book Course Now
+                          </Button></a>
+                      </div>
                     </div>
                   </div>
                 </Card>
               </TabsContent>
-
               <TabsContent value="requirements">
                 <Card className="p-6">
                   <h3 className="text-2xl font-semibold text-silver-200 mb-6">Pre-Course Requirements</h3>
@@ -181,7 +191,6 @@ export default function FoundationCoursePage() {
                   </div>
                 </Card>
               </TabsContent>
-
               <TabsContent value="certification">
                 <Card className="p-6">
                   <h3 className="text-2xl font-semibold text-silver-200 mb-6">Certification</h3>
@@ -191,6 +200,7 @@ export default function FoundationCoursePage() {
             </Tabs>
           </div>
         </section>
+        <CourseSearch />
         <CourseFAQ />
       </main>
     </>

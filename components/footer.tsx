@@ -25,10 +25,9 @@ export function Footer() {
       { name: 'Careers', href: '#' },
     ],
     social: [
-      { name: 'Facebook', icon: Facebook, href: '#' },
-      { name: 'Twitter', icon: Twitter, href: '#' },
-      { name: 'Instagram', icon: Instagram, href: '#' },
-      { name: 'YouTube', icon: Youtube, href: '#' },
+      { name: 'Facebook', icon: Facebook, href: 'https://www.facebook.com/harleystreetinstitute' },
+      { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/harleystreetinstitute/' },
+      
     ],
   }
 

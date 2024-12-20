@@ -15,8 +15,8 @@ export const courseData = {
       duration: "1 Day",
       price: "£1,495",
       level: "Beginner",
-      image: "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&q=80",
-       slug: "botox-training-for-medical-professionals"
+      image: "https://www.theharleystreet.com/wp-content/uploads/2021/05/banner-bg.jpg",
+      slug: "botox-training-for-medical-professionals"
     },
     {
       title: "Advanced Botox And Fillers",
@@ -24,7 +24,8 @@ export const courseData = {
       duration: "2 Days",
       price: "£2,495",
       level: "Intermediate",
-      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80"
+      image: "https://www.theharleystreet.com/wp-content/uploads/2021/04/advance-botox_banner.jpg",
+      slug: "advanced-botox-and-fillers"
     },
     {
       title: "Polynucleotides Course",
@@ -32,7 +33,8 @@ export const courseData = {
       duration: "1 Day",
       price: "£1,295",
       level: "Beginner",
-      image: "https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80"
+      image: "https://www.theharleystreet.com/wp-content/uploads/2024/05/polynucleotides-course.jpg",
+      slug: "polynucleotides-course"
     },
     {
       title: "Skin Rejuvenation Course",
@@ -40,7 +42,8 @@ export const courseData = {
       duration: "1 Day",
       price: "£1,195",
       level: "Beginner",
-      image: "https://images.unsplash.com/photo-1570554886111-e80fcca6a029?auto=format&fit=crop&q=80"
+      image: "https://www.theharleystreet.com/wp-content/uploads/2021/04/peel-banner.jpg",
+      slug: "skin-rejuvenation-course"
     }
   ],
   masterClasses: [
@@ -50,7 +53,8 @@ export const courseData = {
       duration: "1 Day",
       price: "£1,995",
       level: "Advanced",
-      image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80"
+      image: "https://www.theharleystreet.com/wp-content/uploads/2021/04/cannula-banner-1.jpg",
+      slug: "cannula-skill-training-masterclass"
     },
     {
       title: "PDO Thread Training",
@@ -58,7 +62,8 @@ export const courseData = {
       duration: "1 Day",
       price: "£2,495",
       level: "Advanced",
-      image: "https://images.unsplash.com/photo-1523263685509-57c1d050d19b?auto=format&fit=crop&q=80"
+      image: "https://www.theharleystreet.com/wp-content/uploads/2021/04/pdo-banner.jpg",
+      slug: "pdo-thread-training"
     },
     {
       title: "Lip Filler Masterclass",
@@ -66,7 +71,8 @@ export const courseData = {
       duration: "1 Day",
       price: "£1,795",
       level: "Advanced",
-      image: "https://images.unsplash.com/photo-1588528402605-1f9d0eb7a6d6?auto=format&fit=crop&q=80"
+      image: "https://www.theharleystreet.com/wp-content/uploads/2021/04/lips-banner.jpg",
+      slug: "lip-filler-masterclass"
     },
     {
       title: "Chin & Jaw Masterclass",
@@ -74,7 +80,8 @@ export const courseData = {
       duration: "1 Day",
       price: "£1,995",
       level: "Advanced",
-      image: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80"
+      image: "https://www.theharleystreet.com/wp-content/uploads/2021/04/jaw-banner2.jpg",
+      slug: "chin-jaw-masterclass"
     },
     {
       title: "Nose Masterclass",
@@ -82,7 +89,8 @@ export const courseData = {
       duration: "1 Day",
       price: "£2,195",
       level: "Advanced",
-      image: "https://images.unsplash.com/photo-1587928901212-e90704d83380?auto=format&fit=crop&q=80"
+      image: "https://www.theharleystreet.com/wp-content/uploads/2021/04/nose-banner.jpg",
+      slug: "nose-masterclass"
     },
     {
       title: "Cheeks Masterclass",
@@ -90,7 +98,8 @@ export const courseData = {
       duration: "1 Day",
       price: "£1,995",
       level: "Advanced",
-      image: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80"
+      image: "https://www.theharleystreet.com/wp-content/uploads/2021/04/cheeks-banner.jpg",
+      slug: "cheeks-masterclass"
     },
     {
       title: "Tear Trough Masterclass",
@@ -98,7 +107,8 @@ export const courseData = {
       duration: "1 Day",
       price: "£2,295",
       level: "Advanced",
-      image: "https://images.unsplash.com/photo-1570158268183-d296b2892211?auto=format&fit=crop&q=80"
+      image: "https://www.theharleystreet.com/wp-content/uploads/2021/04/tear-banner.jpg",
+      slug: "tear-trough-masterclass"
     }
   ],
   combinedProgrammes: [
@@ -108,7 +118,8 @@ export const courseData = {
       duration: "5 Days",
       price: "£5,995",
       level: "Advanced",
-      image: "https://images.unsplash.com/photo-1556760544-74068565f05c?auto=format&fit=crop&q=80"
+      image: "https://www.theharleystreet.com/wp-content/uploads/2024/06/facial-aesthetic-certificate.jpg",
+      slug: "facial-aesthetic-certificate"
     },
     {
       title: "Certificate In Aesthetic Medicine",
@@ -116,7 +127,7 @@ export const courseData = {
       duration: "10 Days",
       price: "£8,995",
       level: "Advanced",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80",
+      image: "https://www.theharleystreet.com/wp-content/uploads/2024/06/certificate-in-aesthetic-medicine.jpg",
       slug: "certificate-in-aesthetic-medicine"
     },
     {
@@ -125,7 +136,8 @@ export const courseData = {
       duration: "12 Months",
       price: "£12,995",
       level: "Expert",
-      image: "https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&q=80"
+      image: "https://www.theharleystreet.com/wp-content/uploads/2024/06/fellowship-in-aesthetic-medicine.jpg",
+      slug: "fellowship-aesthetic-medicine"
     }
   ],
   onlineCourses: [
@@ -135,7 +147,8 @@ export const courseData = {
       duration: "Self-Paced",
       price: "£495",
       level: "Intermediate",
-      image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80"
+      image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80",
+      slug: "#_"
     }
   ]
 }

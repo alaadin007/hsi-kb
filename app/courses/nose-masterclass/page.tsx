@@ -3,7 +3,6 @@
 import { Header } from '@/components/header'
 import { CourseBanner } from '@/components/course-banner'
 import { CourseContent } from '@/components/course-content'
-import { CourseSearch } from '@/components/course-search'
 import { CourseFAQ } from '@/components/course-faq'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card } from '@/components/ui/card'
@@ -27,6 +26,7 @@ const preRequisiteCourses = [
     description: "Learn the theory behind botulinum toxin (aka Botox) as used in medicine for aesthetic as well as medical conditions."
   }
 ]
+
 
 export default function FoundationCoursePage() {
   return (
@@ -191,7 +191,6 @@ export default function FoundationCoursePage() {
             </Tabs>
           </div>
         </section>
-        <CourseSearch />
         <CourseFAQ />
       </main>
     </>

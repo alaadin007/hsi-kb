@@ -6,22 +6,22 @@ import { Clock, MapPin, GraduationCap, FileText, Award, Stethoscope } from 'luci
 
 export function CourseBanner() {
   return (
-    <section className="relative min-h-[600px] lg:h-[600px] bg-[url('https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80')] bg-cover bg-center">
+    <section className="relative min-h-[600px] lg:h-[600px] bg-[url('https://www.theharleystreet.com/wp-content/uploads/2021/05/banner-bg.jpg')] bg-cover bg-center">
       <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black/90" />
       <div className="relative container mx-auto px-4 py-32 lg:pt-32">
         <div className="grid lg:grid-cols-2 gap-8 items-start lg:items-center">
           <div className="space-y-6">
             <h1 className="text-3xl lg:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-silver-200 to-silver-400">
-              Foundation Botox and Dermal Fillers Course
+            Botox only Course for Medical Professionals
             </h1>
             <p className="text-lg lg:text-xl text-gray-200">
-              Small group aesthetic training with hands-on clinical experience
+            Practical Insight for Immediate Practice
             </p>
             <p className="text-base lg:text-lg text-gray-300">
               Conducted in Harley Street, London
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-            <a href="https://med.as.me/botox-and-fillers-foundation-course" target="_blank" rel="noopener noreferrer">
+              <a href='https://med.as.me/botox-only-course' target='blank'>
               <Button size="lg" className="bg-silver-600 hover:bg-silver-700 text-white w-full sm:w-auto">
                 Book Course Now
               </Button></a>
@@ -85,8 +85,8 @@ export function CourseBanner() {
             <div className="mt-6 pt-6 border-t border-silver-600/20">
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
                 <p className="text-xl font-semibold text-silver-200">£1190 + VAT</p>
-                <a href="https://med.as.me/botox-and-fillers-foundation-course" target="_blank" rel="noopener noreferrer">
-                <Button className="w-full sm:w-auto bg-silver-600 hover:bg-silver-700 text-white " >
+                <a href='https://med.as.me/botox-only-course' target='blank'>
+                <Button className="w-full sm:w-auto bg-silver-600 hover:bg-silver-700 text-white">
                   Book Now
                 </Button></a>
               </div>
